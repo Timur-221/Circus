@@ -1,0 +1,24 @@
+﻿<Page x:Class="Circus.Pages.AddAnimal"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Circus.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="AddAnimal">
+
+    <Grid Background="White">
+        <StackPanel>
+            <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="Название Животного" Margin="0 80 0 0"></Label>
+            <TextBox x:Name="NameB" Margin="0 5 0 0" Height="30" Width="200"></TextBox>
+            <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="Вес" Margin="0 5 0 0"></Label>
+            <TextBox x:Name="WeightB" Margin="0 5 0 0" Height="30" Width="200"></TextBox>
+            <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="Пол" Margin="0 5 0 0"></Label>
+            <TextBox x:Name="GenderB" Margin="0 5 0 0" Height="30" Width="200"></TextBox>
+            <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="Предпочтение в еде " Margin="0 5 0 0"></Label>
+            <TextBox x:Name="eatB" Margin="0 5 0 0" Height="30" Width="200"></TextBox>
+            <Button Height="30" Width="200" Margin="0 15 0 0" Content="Добавить зверюгу" FontSize="20" Click="Button_Click"></Button>
+        </StackPanel>
+    </Grid>
+</Page>
